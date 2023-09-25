@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kids-box-web/static/css/main.8d3096c0.css",
+    "main.js": "/kids-box-web/static/js/main.1104c4db.js",
+    "static/js/787.b03cef27.chunk.js": "/kids-box-web/static/js/787.b03cef27.chunk.js",
+    "static/media/mermaid.jpg": "/kids-box-web/static/media/mermaid.0c0fc42526ddf2902150.jpg",
+    "static/media/zootopia.jpg": "/kids-box-web/static/media/zootopia.bd3a7c6c622729c3d435.jpg",
+    "static/media/finding-nemo.jpg": "/kids-box-web/static/media/finding-nemo.a25c4415f92338de3f5b.jpg",
+    "static/media/kids-cartoon3.jpg": "/kids-box-web/static/media/kids-cartoon3.465f27c5b6863f8eb639.jpg",
+    "static/media/kunfu-panda.jpg": "/kids-box-web/static/media/kunfu-panda.a3e0d59e08dc44e2351a.jpg",
+    "static/media/monsters1.jpg": "/kids-box-web/static/media/monsters1.1c9d7069d6a974e658cf.jpg",
+    "static/media/good-dinosaur.jpg": "/kids-box-web/static/media/good-dinosaur.09bd4888212a6e7b65ed.jpg",
+    "static/media/minions.jpg": "/kids-box-web/static/media/minions.6e20fefb8e2364778e16.jpg",
+    "static/media/frozen.jpg": "/kids-box-web/static/media/frozen.52c679918b4c692a9b98.jpg",
+    "static/media/kids-cartoon2.jpg": "/kids-box-web/static/media/kids-cartoon2.2791ca5c9700c8dd79e4.jpg",
+    "static/media/kids-cartoon1.jpg": "/kids-box-web/static/media/kids-cartoon1.e36dc49395da2617c095.jpg",
+    "static/media/ratatouille.jpg": "/kids-box-web/static/media/ratatouille.af4a983b850d4e2a29fd.jpg",
+    "static/media/tom-jerry.jpg": "/kids-box-web/static/media/tom-jerry.4885805d3c9ba1951d7d.jpg",
+    "static/media/pepa.jpg": "/kids-box-web/static/media/pepa.4ed7c50be38ce3c98ceb.jpg",
+    "static/media/dora.jpg": "/kids-box-web/static/media/dora.f90b1a0843ed8ea2f8d6.jpg",
+    "index.html": "/kids-box-web/index.html",
+    "main.8d3096c0.css.map": "/kids-box-web/static/css/main.8d3096c0.css.map",
+    "main.1104c4db.js.map": "/kids-box-web/static/js/main.1104c4db.js.map",
+    "787.b03cef27.chunk.js.map": "/kids-box-web/static/js/787.b03cef27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d3096c0.css",
+    "static/js/main.1104c4db.js"
+  ]
+}
