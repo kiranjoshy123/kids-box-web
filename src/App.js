@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+import "./App.css";
+// import PicturePuzzleSelector from "./Pages/PicturePuzzle";
+import { Route, Routes, useNavigate } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import { AppBar, Container, Toolbar, Typography } from "@mui/material";
+import PicturePuzzleScreen from "./Pages/PicturePuzzle/puzzle_screen";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 function App() {
+  const navigate = useNavigate();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" onClick={() => navigate("/")}>
+            K!Ds BoX
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Container component="main" maxWidth="md">
+        <CssBaseline />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route
+            path="/picturePuzzleScreen"
+            element={<PicturePuzzleScreen />}
+          />
+        </Routes>
+      </Container>
+    </ThemeProvider>
   );
 }
 

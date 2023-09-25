@@ -1,0 +1,14 @@
+/* ImageGrid.css */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px; /* Adjust the gap between grid cells as needed */
+  width: 512px; /* Set the desired width for the grid */
+  height: 512px; /* Set the desired height for the grid */
+}
+
+.image-part {
+  background-size: 200% 200%; /* Ensure the image covers the entire cell */
+  background-repeat: no-repeat;
+}
