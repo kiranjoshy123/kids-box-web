@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 import PicturePuzzleScreen from "./Pages/PicturePuzzle/puzzle_screen";
+import NavBar from "./navbar";
 
 const darkTheme = createTheme({
   palette: {
@@ -14,17 +15,18 @@ const darkTheme = createTheme({
   },
 });
 
-function App() {
+const App = () => {
   const navigate = useNavigate();
   return (
     <ThemeProvider theme={darkTheme}>
-      <AppBar position="static">
+      {/* <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" onClick={() => navigate("/")}>
             K!Ds BoX
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
+      <NavBar></NavBar>
       <Container component="main" maxWidth="md">
         <CssBaseline />
         <Routes>
@@ -38,6 +40,6 @@ function App() {
       </Container>
     </ThemeProvider>
   );
-}
+};
 
 export default App;
