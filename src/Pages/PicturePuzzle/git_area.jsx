@@ -1,4 +1,4 @@
-import { Grow, Slide, Stack, Typography } from "@mui/material";
+import { Slide, Stack, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 
 const StatusArea = ({ gif }) => {

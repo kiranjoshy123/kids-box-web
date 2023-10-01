@@ -13,7 +13,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 const PicturePuzzleSelector = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const navigate = useNavigate();
   const handleImageSelection = (item) => {
     navigate("picturePuzzleScreen", { state: { img: item } });

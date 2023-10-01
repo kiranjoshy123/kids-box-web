@@ -1,10 +1,4 @@
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { useCallback, useEffect, useState } from "react";
 import _ from "lodash";
 // // import { getSuccessGifs } from "../../components/gifs";
 import { randomNumber, shuffle } from "../../utilities/generate";
@@ -119,16 +113,16 @@ const PicturePuzzleScreen = () => {
                   height: `${containerSize.height}px`,
                 }}
               >
-                {pieces.map((piece, index) => (
+                {pieces.map((piece, _) => (
                   <Zoom
                     in={true}
+                    key={piece.id}
                     style={{
                       transitionDelay: `${piece.tranistionDelay}ms`,
                     }}
                   >
                     <div>
                       <DraggableImage
-                        key={piece.id}
                         piece={piece}
                         showHelp={showHelp}
                         onDrop={(sourceId, targetId) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import success_0 from "../assets/gifs/success/0.gif";
 import success_1 from "../assets/gifs/success/1.gif";
 import success_2 from "../assets/gifs/success/2.gif";
@@ -12,11 +11,6 @@ import success_9 from "../assets/gifs/success/9.gif";
 import success_10 from "../assets/gifs/success/10.gif";
 
 const getSuccessGifs = () => {
-  const style = {
-    width: 200,
-    height: 200,
-  };
-
   return [
     success_0,
     success_1,

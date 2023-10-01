@@ -36,7 +36,10 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar
+      position="static"
+      style={{ background: "linear-gradient(to right, #FF512F, #DD2476)" }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img src={logo} alt="Puzzle-Item" height={50} />

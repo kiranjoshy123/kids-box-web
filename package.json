@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kiranjoshy123.github.io/kids-box-web",
   "name": "kids-box",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +48,10 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^6.0.0"
   }
 }

@@ -1,10 +1,29 @@
-import { Box, Typography } from "@mui/material";
-import PicturePuzzleSelector from "../PicturePuzzle";
+import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <Box>
-      <PicturePuzzleSelector />
+      <Grid container>
+        <Card
+          sx={{ minWidth: 275 }}
+          onClick={() => {
+            navigate("picture-puzzle");
+          }}
+        >
+          <CardContent>
+            <Typography
+              sx={{ fontSize: 14 }}
+              color="text.secondary"
+              gutterBottom
+            >
+              Picture Puzzle
+            </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
     </Box>
   );
 };
