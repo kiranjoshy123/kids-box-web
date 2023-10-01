@@ -113,7 +113,7 @@ const PicturePuzzleScreen = () => {
                   height: `${containerSize.height}px`,
                 }}
               >
-                {pieces.map((piece, _) => (
+                {pieces.map((piece) => (
                   <Zoom
                     in={true}
                     key={piece.id}
