@@ -16,7 +16,7 @@ const PicturePuzzleSelector = () => {
   const [loading] = useState(false);
   const navigate = useNavigate();
   const handleImageSelection = (item) => {
-    navigate("picturePuzzleScreen", { state: { img: item } });
+    navigate("picture-puzzle-screen", { state: { img: item } });
   };
 
   if (loading) {

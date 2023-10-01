@@ -38,7 +38,7 @@ const App = () => {
           />
           <Route path="/about" element={<About />} />
           <Route
-            path="/picturePuzzleScreen"
+            path="/picture-puzzle/picture-puzzle-screen"
             element={<PicturePuzzleScreen />}
           />
         </Routes>
