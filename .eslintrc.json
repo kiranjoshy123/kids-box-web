@@ -13,6 +13,7 @@
     "react/react-in-jsx-scope": "off",
     "react/react-uses-vars": "off",
     "react-hooks/rules-of-hooks": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "react/prop-types": "off"
   }
 }
